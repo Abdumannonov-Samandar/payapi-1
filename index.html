@@ -7,111 +7,149 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/output.css">
 </head>
-<body>
+<body class="bg-[#edf3f8]">
     
     <!-- HEADER START -->
-<header class="py-10">
-    <div class="container max-w-[1174px] mx-auto px-8">
-        <div class="flex items-center justify-between">
-            
-           <div class="flex items-center">
-            <a class="mr-[64px]" href="./index.html">
-                <img src="./assets/icons/pay-api-logo.svg" width="135" height="38" alt="logo img">
-            </a>
-
-            <nav class="hidden sm:block md:block">
-                <ul class="flex gap-[40px]">
-                    <li class="">
-                        <a class="font-sans font-bold text-[15px] leading-[18px] text-blue opacity-70 hover:text-blue hover:opacity-100" href="#">
-                            Pricing
-                        </a>
-                    </li>
-                    <li class="">
-                        <a class="font-sans font-bold text-[15px] leading-[18px] text-blue opacity-70 hover:text-blue hover:opacity-100" href="#">
-                            About
-                        </a>
-                    </li>
-                    <li class="">
-                        <a class="font-sans font-bold text-[15px] leading-[18px] text-blue opacity-70 hover:text-blue hover:opacity-100" href="#">
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-           </div>
-
-            <button class="font-sans hidden md:block sm:block hover:bg-[#DA6D97] font-bold text-[15px] leading-[18px] rounded-[24px] shadow-bg-sh tracking-[-0.12px] bg-red-light pt-[16px] pb-[14px] pr-[26px] pl-[25px] text-[#fff]">
-                Schedule a Demo
-            </button>
-
-            <button class="border-none bg-transparent block md:hidden sm:hidden menu-btn">
-                <img src="./assets/icons/close--btn.svg" width="28" height="17" alt="Menu icon">
-            </button>
-        </div>
-    </div>
-
-
-    <!-- HIDDEN HEADER START -->
-    <div class="hidden-header fixed top-0 ring-0 bottom-0 right-0 z-50 flex flex-col justify-between w-3/4 h-full bg-[#1B262F] shadow-bg-hid pt-[46px] pb-[312px] transition-all -translate-y-[150%]">
-        <div class="container mx-auto px-8">
-            <div class="flex justify-end mb-[25px]">
-                <!-- <a href="./index.html">
-                    <img src="./assets/icons/pay-api-logo.svg" width="135" height="38" alt="logo img">
-                </a> -->
+    <header class="py-10">
+        <div class="container max-w-[391px] sm:max-w-[753px] md:max-w-[1174px] mx-auto px-8">
+            <div class="flex items-center justify-between">
                 
-                <button class="border-none bg-transparent close-btn">
-                    <img src="./assets/icons/open-btn.svg" width="28" height="17" alt="Menu close icon">
+                <div class="flex items-center">
+                    <a class="mr-[64px]" href="./index.html">
+                        <img src="./assets/icons/pay-api-logo.svg" width="135" height="38" alt="logo img">
+                    </a>
+                    
+                    <nav class="hidden sm:block md:block">
+                        <ul class="flex gap-[40px]">
+                            <li class="">
+                                <a class="font-sans font-bold text-[15px] leading-[18px] text-blue opacity-70 hover:text-blue hover:opacity-100" href="#">
+                                    Pricing
+                                </a>
+                            </li>
+                            <li class="">
+                                <a class="font-sans font-bold text-[15px] leading-[18px] text-blue opacity-70 hover:text-blue hover:opacity-100" href="#">
+                                    About
+                                </a>
+                            </li>
+                            <li class="">
+                                <a class="font-sans font-bold text-[15px] leading-[18px] text-blue opacity-70 hover:text-blue hover:opacity-100" href="#">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <button class="font-sans hidden md:block sm:block hover:bg-[#DA6D97] font-bold text-[15px] leading-[18px] rounded-[24px] shadow-bg-sh tracking-[-0.12px] bg-red-light pt-[16px] pb-[14px] pr-[26px] pl-[25px] text-[#fff]">
+                    Schedule a Demo
+                </button>
+                
+                <button class="border-none bg-transparent block md:hidden sm:hidden menu-btn">
+                    <img src="./assets/icons/close--btn.svg" width="28" height="17" alt="Menu icon">
                 </button>
             </div>
-            
-            <nav class="flex justify-center w-full">
-                <ul class="w-full text-center">
-                    <li class="pt-[43px] mb-[32px] border-t border-oq border-opacity-15">
-                        <a class="font-sans font-bold text-[20px] leading-[23px] text-oq" href="#">Pricing</a>
-                    </li>
-                    <li class="mb-[32px]">
-                        <a class="font-sans font-bold text-[20px] leading-[23px] text-oq" href="#">About</a>
-                    </li>
-                    <li class="mb-[32px]">
-                        <a class="font-sans font-bold text-[20px] leading-[23px] text-oq" href="#">Contact</a>
-                    </li>
-
-                    <button class="font-sans hover:bg-[#DA6D97] font-bold text-[15px] leading-[18px] rounded-[24px] shadow-bg-sh tracking-[-0.12px] bg-red-light pt-[16px] pb-[14px] pr-[36px] pl-[38px] text-[#fff]">
-                        Schedule a Demo
-                    </button>
-                </ul>
-            </nav>
         </div>
         
-        <!-- <ul class="flex justify-center items-center gap-10">
-            <li>
-                <a href="https://facebook.com">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M22.675 0H1.325C0.593 0 0 0.593 0 1.325V22.676C0 23.407 0.593 24 1.325 24H12.82V14.706H9.692V11.084H12.82V8.413C12.82 5.313 14.713 3.625 17.479 3.625C18.804 3.625 19.942 3.724 20.274 3.768V7.008L18.356 7.009C16.852 7.009 16.561 7.724 16.561 8.772V11.085H20.148L19.681 14.707H16.561V24H22.677C23.407 24 24 23.407 24 22.675V1.325C24 0.593 23.407 0 22.675 0Z" fill="white"/>
-                    </svg>
+        
+        <!-- HIDDEN HEADER START -->
+        <div class="hidden-header fixed top-0 ring-0 bottom-0 right-0 z-50 flex flex-col justify-between w-3/4 h-full bg-[#1B262F] shadow-bg-hid pt-[46px] pb-[312px] transition-all -translate-y-[150%]">
+            <div class="container mx-auto px-8">
+                <div class="flex justify-end mb-[25px]">
+                    <!-- <a href="./index.html">
+                        <img src="./assets/icons/pay-api-logo.svg" width="135" height="38" alt="logo img">
+                    </a> -->
                     
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com">
-                    <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M24 2.55699C23.117 2.94899 22.168 3.21299 21.172 3.33199C22.189 2.72299 22.97 1.75799 23.337 0.607986C22.386 1.17199 21.332 1.58199 20.21 1.80299C19.313 0.845986 18.032 0.247986 16.616 0.247986C13.437 0.247986 11.101 3.21399 11.819 6.29299C7.728 6.08799 4.1 4.12799 1.671 1.14899C0.381 3.36199 1.002 6.25699 3.194 7.72299C2.388 7.69699 1.628 7.47599 0.965 7.10699C0.911 9.38799 2.546 11.522 4.914 11.997C4.221 12.185 3.462 12.229 2.69 12.081C3.316 14.037 5.134 15.46 7.29 15.5C5.22 17.123 2.612 17.848 0 17.54C2.179 18.937 4.768 19.752 7.548 19.752C16.69 19.752 21.855 12.031 21.543 5.10599C22.505 4.41099 23.34 3.54399 24 2.55699Z" fill="white"/>
-                    </svg>
-                    
-                </a>
-            </li>
-        </ul> -->
-    </div>
-    
-    
-    <!-- HIDDEN HEADER END -->
-</header>
+                    <button class="border-none bg-transparent close-btn">
+                        <img src="./assets/icons/open-btn.svg" width="28" height="17" alt="Menu close icon">
+                    </button>
+                </div>
+                
+                <nav class="flex justify-center w-full">
+                    <ul class="w-full text-center">
+                        <li class="pt-[43px] mb-[32px] border-t border-oq border-opacity-15">
+                            <a class="font-sans font-bold text-[20px] leading-[23px] text-oq" href="#">Pricing</a>
+                        </li>
+                        <li class="mb-[32px]">
+                            <a class="font-sans font-bold text-[20px] leading-[23px] text-oq" href="#">About</a>
+                        </li>
+                        <li class="mb-[32px]">
+                            <a class="font-sans font-bold text-[20px] leading-[23px] text-oq" href="#">Contact</a>
+                        </li>
+                        
+                        <button class="font-sans hover:bg-[#DA6D97] font-bold text-[15px] leading-[18px] rounded-[24px] shadow-bg-sh tracking-[-0.12px] bg-red-light pt-[16px] pb-[14px] px-[26px] text-[#fff]">
+                            Schedule a Demo
+                        </button>
+                    </ul>
+                </nav>
+            </div>
+            
+        </div>
+        
+        
+        <!-- HIDDEN HEADER END -->
+    </header>
     <!-- HEADER END -->
     
+    <!-- MAIN START -->
+    <main>
+        <!-- HERO START -->
+        <section class="pb-[80px] sm:pb-[92px] sm:pt-[10px] w-full md:pt-[34px] md:pb-[150px]">
+            <div class="container max-w-[391px] sm:max-w-[753px] md:max-w-[1174px] mx-auto px-8">
+                <div class="items-center justify-center w-full sm:max-w-[573px] sm:mx-auto md:flex md:mx-0 md:max-w-[1011px] md:justify-between">
+                    <img class="block md:hidden sm:hidden rounded-2xl mb-[24px] mx-auto" src="./assets/icons/tablet-detsot-phone.svg" width="124" height="239" alt="telphone-mobile img">
+                    <img class="hidden sm:block md:hidden sm:mb-[48px] rounded-3xl mx-auto" src="./assets/icons/tablet-detsot-phone.svg" width="159" height="300" alt="phone img">
+                    
+                    <div class="text-center md:text-start md:max-w-[550px]">
+                        <h1 class="font-serif font-normal mb-[24px] text-blue text-[32px] leading-[36px] sm:text-[48px] sm:leading-[56px] sm:tracking-[-0.37px] sm:mb-[22px] md:text-[72px] md:leading-[72px] md:tracking-[-0.55px] md:mb-[21px]">
+                            Start building with our APIs for absolutely free.
+                        </h1>
+                        
+                        <div class="mb-[24px] sm:max-w-[445px] sm:relative sm:md:mb-[16px] md:mx-0 sm:mx-auto md:flex">
+                            <label>
+                                <input class="shadow-btn-shadow h-full md:w-[445px] outline-0 pt-[16px] pb-[14px] pl-[27px] w-full pr-[27px] rounded-[24px] mb-[16px] sm:mb-0 md:mb-0 bg-oq placeholder:text-[15px] placeholder:leading-[18px] placeholder:font-sans placeholder:font-bold placeholder:text-blue placeholder:opacity-50 " type="text" name="Enter email address" placeholder="Enter email address">
+                            </label>
+                            <button class="font-bold w-full sm:max-w-[173px] h-full sm:bottom-0 sm:absolute sm:end-0 text-[15px] leading-[18px] font-sans tracking-[-0.12px] text-oq hover:bg-[#DA6D97] pt-[16px] pb-[14px] pr-[46px] pl-[50px] sm:pt[16px] md:pt-[16px] sm:p-b[14px] md:pb-[14px] sm:pl-[25px] sm:pr-[24px] md:pl-[24px] md:pr-[25px] bg-red-light rounded-[24px]">
+                                Schedule a Demo
+                            </button>
+                        </div>
+                        
+                        <p class="flex items-center  mx-auto w-[230px] md:mx-[27px]">
+                            <span class="font-sans text-[15px]  leading-[17px] font-normal text-blue">
+                                Have any questions?
+                            </span>
+                            <a class="font-sans text-[15px] pr-0 ml-1 leading-[17px] font-bold text-blue" href="#"> 
+                                Contact Us
+                            </a>
+                        </p>
+                        
+                    </div>
+                    
+                    <img class="hidden md:block rounded-[34px]" src="./assets/icons/tablet-detsot-phone.svg" width="253px" height="500px" alt="">
+                    
+                </div>
+            </div>
+        </section>
+        <!-- HERO END -->
+    </main>
+    <!-- MAIN END -->
+    
     <script src="./js/main.js"></script>
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!-- bg-[url('../assets/img/bg-hero.png')] bg-no-repeat bg-contain md:bg-[830px_-120px] -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
 </body>
 </html>
