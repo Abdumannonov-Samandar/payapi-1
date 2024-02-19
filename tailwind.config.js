@@ -8,6 +8,7 @@ module.exports = {
       "red-light": "#BA4270",
       dark: "#242A45",
       oq: "#FBFCFE",
+      'bg-qora' : "#1B262F",
       transparent: "transparent",
     },
     fontFamily: {
